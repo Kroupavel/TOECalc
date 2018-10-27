@@ -16,7 +16,7 @@ To actually run any of those scripts: If an input file is needed, change the wor
 If no input files are needed the working directory is where the results will be stored. 
 Then a following command will run the script:
 
-python C:complete\path\to\the\script\TOECalc.py argument1 argument2 argument3
+python C:\complete\path\to\the\script\TOECalc.py argument1 argument2 argument3
 
 Be sure to include the name of the script to run with the .py extension. If you don't know which arguments to include, don't put any and you will be ask for them.
 All words separate with space, no commas or dots. For decimal numbers use dot.
@@ -35,4 +35,4 @@ GUI Constant calculator + matrix generator - This will create a simple GUI in wh
 Additional informations are in the folders with the script. The code is also heavily annotated so a help() command might give you some other insight.
 
 author: Pavel Kroupa
-TOECalc was created during an internship at Czech Academy of Science, department of Materials, under the supervision of Mgr. Martin Fri·k PhD.
+TOECalc was created during an internship at Czech Academy of Science, department of Materials, under the supervision of Mgr. Martin Fri√°k PhD.
