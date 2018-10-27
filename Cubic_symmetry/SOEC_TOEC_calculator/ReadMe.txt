@@ -11,8 +11,8 @@ Input file - a simple txt file with numbers in the order specified in the exampl
 Output folder -  a name of a folder into which the results will be stored. The folder must be/will be created into the working directory. 
 	If the folder already exists it will store the data into that folder. However if there are any files with the same name, they will be overwritten!!
 example:
-cd C:\Users\Pavel\Documents\Python\TOECalc\inputdata #First changing the working directory to where the data is.
-python C:\Users\Pavel\Documents\Python\TOECalc\SOEC_TOEC_calculator\Constants.py Example-input Results
+
+python Constants.py Example-input Results
 
 This will take the Example-input.txt which is in the inputdata folder and calculates the constants. 
 The result will be stored in folder Results that will be created in Inputdata folder.
