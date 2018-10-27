@@ -1,7 +1,6 @@
 This script creates GUI for manual calculations of SOEC and TOEC. It is also capable of generating the deformation matrices. 
 However it is not capable of any post processing like calculating Young moduli and pressure derivatives.
-To run just write:
-python C:\Users\Pavel\Documents\Python\TOECalc\GUI_constants\GUI.py
+
 
 A window will open. On the top left there is a single small entry field with a "Generate matrices" button next to it.
 Write a value of strain into the entry field and press the button. In the bottom right field the matrices will appear in the form suitable for Vasp calculation.
