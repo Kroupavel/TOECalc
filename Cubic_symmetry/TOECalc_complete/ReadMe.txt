@@ -19,9 +19,9 @@ Number of iteration steps will determine the density of points for "surface inte
 The number of integration steps is for calculating the pressure derivatives. The effect on computing time is small.
         For normal pressure changes like 1,10,100 GPa the effect of n. of iteration steps is also small. However a 1000 is used as a standard value. 
 
-for example: python C:\Users\Pavel\Documents\Python\TOECalc\TOECalc_complete\TOECalc.py example-annotated Output 1 200 1000
+for example: python TOECalc.py example-annotated Output 1 200 1000
 
-assuming the working directory is changed to where the example-annotated file is eg: cd C:\Users\Pavel\Documents\Python\TOECalc\testdata
+assuming the working directory is changed to where the example-annotated file is eg: cd C:\...\TOECalc\testdata
 If the python script is not in the same folder as the input file, then the whole path to the python script needs to be specified as shown above.
 If however the script is in the same folder, only the name of the script can be written, e.g: python TOECalc.py example-annotated Output 1 200 1000
 

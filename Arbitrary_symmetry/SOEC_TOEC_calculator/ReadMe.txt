@@ -9,10 +9,11 @@ Running the script:
 arguments:
 Input file - a simple txt file with numbers in the order specified in the example file
 Output folder -  a name of a folder into which the results will be stored. The folder must be/will be created into the working directory. 
-	If the folder already exists it will store the data into that folder. However if there are any files with the same name, they will be overwritten!!
+	If the folder already exists it will store the data into that folder. However if there are any files with the same name, they will be overwritten!
 example:
 cd C:\path_to_data\TOECalc\inputdata #First changing the working directory to where the data is.
-python C:path_to_TOECALC\arbitrary_symmetry.py Example-input Results
+python C:path_to_TOECALC\arbitrary_symmetry.py example Results
+
 
 This will take the example.txt which is in the inputdata folder and calculates the constants. 
 The result will be stored in folder Results that will be created in Inputdata folder.
