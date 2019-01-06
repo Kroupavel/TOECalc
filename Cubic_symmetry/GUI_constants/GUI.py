@@ -123,7 +123,7 @@ class GUI(tk.Frame):
         Changing ndelta wont change the number of collumns but will calculate with that value"""
         
         self.data = self.data_crunch() # Importing processed data
-        tk.Button(self.frame1,text = "Calculate TOECs", command=self.data_calc).grid(row=3, column=1, stick="W")
+        tk.Button(self.frame1,text = "Calculate TOECs", command=self.data_calc).grid(row=4, column=0, stick="W")
         
         #Recreating the frame every time new values are inputed. Easier to destroy the whole frame than 
         # to check what neeeds to be recreated
@@ -132,7 +132,7 @@ class GUI(tk.Frame):
             self.fr2 = False 
             
         self.frame2 = tk.Frame(self.canvas,width=750, height=500)
-        self.canvas.create_window((0,500), window=self.frame2, anchor="nw", 
+        self.canvas.create_window((0,650), window=self.frame2, anchor="nw", 
                                   tags="self.frame2")
         self.frame2.bind("<Configure>", self.onFrameConfigure)
         self.fr2 = True

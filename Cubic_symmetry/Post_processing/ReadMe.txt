@@ -18,7 +18,7 @@ The output are three graphs (Young moduli (E) at zero pressure, the difference i
 Also a text file is created with numerical data (more details in store method). 
 
 cd C:\Users\Pavel\Documents\Python\data\constants
-python C:\Users\Pavel\Documents\Python\TOECalc\Post_processing\Postprocessing.py Cuconstants Curesults 1 200 1000
+python C:\Users\Pavel\Documents\Python\TOECalc\Post_processing\Postprocessing.py example results 1 200 1000
 
 if the python script is in the same folder as the input file (the working directory) the whole path can be omitted when calling the script, e.g:
 python Postprocessing.py Cuconstants Curesults 1 200 1000

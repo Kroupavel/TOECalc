@@ -130,7 +130,7 @@ class Calculate(Cmd):
         self.completeName2 = os.path.join(self.outpath, "LeaveOneOut.txt")  
         f2 = open(self.completeName2, 'w') # creates an output file
         # Prepares all the data for input into solving script
-        self.n = self.data[0]
+        self.n = int(self.data[0])
         self.volume = self.data[1]
         self.eqenergy = self.data[2]
         self.deltas = self.data[3:self.n+3]
