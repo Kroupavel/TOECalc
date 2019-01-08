@@ -1,8 +1,8 @@
-This file calculates SOEC and TOEC from the ab initio quantum energy-strain calculations.
+This file calculates SOEC and TOEC from the ab initio quantum energy-strain calculations for arbitrary crystal symmetry.
 An example input is provided in this folder. Separate numbers in input file by a space or a new line, no commas or semicolons.
-#Serves as a start of a comment and the rest of the line is ignored
+
 The output folder contains two files: Constants.txt where the results were calculated from all available data.
-LeaveOneOut.txt - where one set of data was omitted each time - Consistency check.
+LeaveOneOut.txt - where one set of data was omitted each time - Used for outliers and errorous data check.
 
 Running the script:
 

@@ -1,2 +1,0 @@
-This code is free to use for all non-profit uses. 
-When using, please cite the corresponding article in the Computer physics communication in which an article about TOECalc will be published.
