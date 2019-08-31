@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿This is the Python 3.6 version of TOECalc. This is the updated and maintained version of TOECalc.
 
 There are two main folders: 
@@ -6,3 +7,13 @@ Arbitrary_symmetry - Contains scripts for calculating elastic constants for crys
 
 
 
+=======
+﻿This is the Python 3.6 version of TOECalc. This is the updated and maintained version of TOECalc.
+
+There are two main folders: 
+Cubic_symmetry - Contains scripts for calculating Elastic constants for cubic crystals only. Additionally contains further processing of these results. Mostly based on https://arxiv.org/abs/1111.2737
+Arbitrary_symmetry - Contains scripts for calculating elastic constants for crystals of arbitrary symmetry. Does not contain any further processing as such calculations are typically structure dependent. 
+
+
+
+>>>>>>> 6918d7fd83510ac6cefc549dce83bcb30998d13d

@@ -19,6 +19,3 @@ This will take the example.txt which is in the inputdata folder and calculates t
 The result will be stored in folder Results that will be created in Inputdata folder.
 However if the python script is in the same folder as the input data and thus the working directory the path to the script can be omitted:
 python Constants.py example Results
-
-
-

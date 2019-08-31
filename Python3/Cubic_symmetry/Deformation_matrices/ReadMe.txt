@@ -5,5 +5,4 @@ The input of this script is a value of delta and a name of the output file witho
 The script should be called from the folder which contains the training data
 calling the script:
 
-python3 C:/path_to_Matrices/Matrices.py 0.015 Matrices1
-
+python C:/path_to_Matrices/Matrices.py 0.015 Matrices1
