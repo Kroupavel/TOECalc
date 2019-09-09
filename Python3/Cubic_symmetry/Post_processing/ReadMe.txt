@@ -19,7 +19,7 @@ Also a text file is created with numerical data (more details in store method).
 
 Runing the file:
 cd C:/path_to_data/constants
-python3 C:/path_to_TOECalc/Cubic_symmetry/Post_processing/Postprocessing.py example results 1 200 1000
+python3 C:/path_to_TrelaCalc/Cubic_symmetry/Post_processing/Postprocessing.py example results 1 200 1000
 
 if the python script is in the same folder as the input file (the working directory) the whole path can be omitted when calling the script, e.g:
 python3 Postprocessing.py example results 1 200 1000

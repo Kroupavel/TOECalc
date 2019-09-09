@@ -12,7 +12,7 @@ import numpy as np
 class Main(Cmd):
     def __init__(self):    
         """
-        The is the complete version of TOECalc. It calculates second and third order elastic constants (SOEC, TOEC) from 
+        The is the complete version of TrelaCalc. It calculates second and third order elastic constants (SOEC, TOEC) from
         quantum ab initio energy-strain calculations. 
          
         The output with the results will be stored in a new folder that will be created in the working directory. 

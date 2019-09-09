@@ -1,4 +1,4 @@
-The is the complete version of TOECalc. It calculates second and third order elastic constants (SOEC, TOEC) from 
+The is the complete version of TrelaCalc. It calculates second and third order elastic constants (SOEC, TOEC) from 
 quantum ab initio energy-strain calculations and further process the results into other useful properties of material, such as Young moduli and pressure derivatives. 
          
 The output with the results will be stored in a new folder that will be created in the working directory. 
@@ -19,13 +19,13 @@ Number of iteration steps will determine the density of points for "surface inte
 The number of integration steps is for calculating the pressure derivatives. The effect on computing time is small.
         For normal pressure changes like 1,10,100 GPa the effect on the accuracy is small. 1000 is used as a standard value. 
 
-for example: python C:/path_to_TOECalc/TOECalc.py example Output 1 200 1000
+for example: python C:/path_to_TrelaCalc/TrelaCalc.py example Output 1 200 1000
 
-assuming the working directory is changed to where the input file is eg: cd C:\...\TOECalc\data
+assuming the working directory is changed to where the input file is eg: cd C:\...\TrelaCalc\data
 If the python script is not in the same folder as the input file, then the whole path to the python script needs to be specified as shown above.
-If however the script is in the same folder, only the name of the script can be written, e.g: python TOECalc.py example Output 1 200 1000
+If however the script is in the same folder, only the name of the script can be written, e.g: python TrelaCalc.py example Output 1 200 1000
 
 The output are three files and three graphs: Constants.txt contains the SOEC and TOEC calculated from all the available data.
 LeaveOneOut.txt stores the results of calculating the constants while omitting a different set of data each time. This serves as a consistency check for outliers and invalid data.
 Additional data.txt contains other properties of material such as: anisotropy, directional Young moduli, SOEC, all at zero and user-defined pressure. It also contains some polycrystalline properties like shear.
-Three graphs are produced: 1) Young moduli (E) at zero pressure, 2) the difference in E for given difference in pressure and 3) the same graph normalized by the Young moduli at zero pressuer, all as a function of direction
+Three graphs are produced: 1) Young moduli (E) at zero pressure, 2) the difference in E for given difference in pressure and 3) the same graph normalized by the Young moduli at zero pressure, all as a function of direction
