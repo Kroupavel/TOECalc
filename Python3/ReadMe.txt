@@ -1,4 +1,4 @@
-This is the Python 3.6 version of TOECalc. This is the updated and maintained version of TOECalc.
+This is the Python 3.6 version of TrelaCalc. This is the updated and maintained version of TrelaCalc.
 
 There are two main folders: 
 Cubic_symmetry - Contains scripts for calculating Elastic constants for cubic crystals only. Additionally contains further processing of these results. Mostly based on https://arxiv.org/abs/1111.2737

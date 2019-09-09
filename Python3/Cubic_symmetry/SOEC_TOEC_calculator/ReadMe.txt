@@ -12,7 +12,7 @@ Output folder -  a name of a folder into which the results will be stored. The f
 	If the folder already exists it will store the data into that folder. However if there are any files with the same name, they will be overwritten!!
 example:
 
-python3 C:/path_to_TOECalc/Constants.py example Results
+python3 C:/path_to_TrelaCalc/Constants.py example Results
 
 This will take the example.txt which is in the current folder and calculates the constants. 
 The result will be stored in folder Results.
