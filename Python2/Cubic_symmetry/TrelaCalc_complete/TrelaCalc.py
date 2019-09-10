@@ -3,8 +3,9 @@ import sys
 import os.path
 import math 
 import matplotlib
+matplotlib.use('Agg')
+from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import axes3d, Axes3D 
 from scipy.integrate import odeint
 import numpy as np
 
@@ -558,7 +559,7 @@ class PostProcess():
         fcolors = m.to_rgba(self.difr)
         
         fig = plt.figure()
-        ax = fig.add_subplot(111, projection='3d')
+        ax = Axes3D(fig)
         ax.set_title("The difference in Young moduli") 
         ax.plot_surface(self.difx, self.dify, self.difz, rstride=2, cstride=2,  facecolors=fcolors)
         cb = fig.colorbar(m)
@@ -579,7 +580,7 @@ class PostProcess():
         fcolors = n.to_rgba(self.r1)
         
         fig = plt.figure()
-        ax = fig.add_subplot(111, projection='3d')
+        ax = Axes3D(fig)
         ax.set_title("The Young moduli at zero pressure") 
         ax.plot_surface(self.x1, self.y1, self.z1, rstride=2, cstride=2,  facecolors=fcolors)
         cb = fig.colorbar(n)
@@ -598,7 +599,7 @@ class PostProcess():
         fcolors = o.to_rgba(self.rnorm)
         
         fig = plt.figure()
-        ax = fig.add_subplot(111, projection='3d')
+        ax = Axes3D(fig)
         ax.set_title("The normalised difference in young moduli") 
         ax.plot_surface(self.xnorm, self.ynorm, self.znorm, rstride=2, cstride=2,  facecolors=fcolors)
         cb = fig.colorbar(o)
